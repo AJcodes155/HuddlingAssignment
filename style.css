@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+    --font-family : 'Poppins', sans-serif;
+    --font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    position: relative;
+}
+header{
+    background-image: url(./Images/bg-hero-desktop.svg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.headerone{
+    display: flex;
+      padding-top: 25px;
+      margin-left: 55px;
+}
+
+.headerone button{
+    margin-left: 75%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0px 19px;
+    height: 27px;
+    border: 1px whitesmoke;
+    color: black;
+    font-family : 'Poppins', sans-serif;
+    
+}
+.headertwo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.textOne-col{
+    margin-left: 25px;
+}
+
+.textOne-col h2{
+    font-family:var(--font-family);
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.firstpics{
+position: absolute;
+top: 10%;
+left: 45%;
+}
+
+.textOne-col p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: var(--font-family);
+    color: gray;
+}
+
+.textOne-col button{
+    background-color: var(--Pink);
+    padding: 5px 10px;
+    border-radius: 26px;
+    color: white;
+    border: none;
+    width: 50%;
+}
+
+.colone{
+    display: flex;
+    margin-top: 90px;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+.colone h3{
+    font-family: 'Open Sans', sans-serif;
+}
+.text{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.colone p{
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: gray;
+}
+
+.imagetwo{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.coltwo{
+    display: flex;
+    margin: 40px 60px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+
+}
+
+.coltwo h3{
+    font-family: 'Open Sans', sans-serif;
+}
+.coltwo p{
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: gray; 
+}
+.image-coltwo{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-coltwo{
+    margin-left: 180px;
+    margin-top: 89px;
+    margin-bottom: px;
+}
+
+.colthree{
+    display: flex;
+    margin: 40px 60px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+.colthree h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-colthree{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.colthree p{
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: gray;
+}
+
+
+.image-colthree{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.colfour{
+    background-color: white;
+    border: 2px solid whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top:55px ;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: -35%;
+
+}
+
+.colfour h3{
+    font-family: var(--font-family);
+}
+
+.colfour button{
+    background-color: var(--Pink);
+    border-radius: 26px;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 25px 50px;
+    font-family: var(--font-family);
+    text-decoration: none;
+}
+
+footer{
+    background-color:var(--VeryDarkCyan);
+    color: var(--VeryPaleCyan);
+    font-family: var(--font-family);
+    font-size: 13px;
+    padding-top: 75px;
+    margin-top: 250px;
+    padding-left: 50px;
+    line-height: 35px;
+
+}
+
+.info{
+    display: flex;
+}
+
+.secondlist{
+    padding-left: 50px;
+}
+
+.thirdlist{
+    padding-left: 50px;
+}
+
+.socialmedia-icons{
+    padding-left: 150px;
+    line-height: 80px;
+}
+
+.footer-logo{
+    padding-bottom: 11px;
+}
+
+.fa-brands{
+    color: var(--VeryPaleCyan);
+    font-size: 20px;
+    padding-bottom:10px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
